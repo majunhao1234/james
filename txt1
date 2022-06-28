@@ -1,0 +1,7 @@
+ping www.baidu.com &> /dev/null
+if [ $?=0 ]
+then
+    echo '123'
+else
+    echo '234'
+ fi
